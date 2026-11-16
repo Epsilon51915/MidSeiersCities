@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "raylib/BufferedRaylib/FastSignals",
+		"source" : "raylib-cpp/BufferedRaylib/FastSignals"
+	}
+}

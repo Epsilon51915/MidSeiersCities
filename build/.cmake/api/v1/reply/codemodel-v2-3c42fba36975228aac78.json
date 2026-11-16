@@ -1,0 +1,358 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "raylib",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						7,
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-raylib-Debug-e673b63e2eadc1e6981b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "raylib-cpp"
+				},
+				{
+					"build" : "raylib/include",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-raylib.include-Debug-1f12653ad090de48261c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "raylib-cpp/include"
+				},
+				{
+					"build" : "raylib/raylib",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-raylib.raylib-Debug-03cd086e04e649b1c869.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "raylib-cpp/raylib",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "raylib/raylib/raylib",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-raylib.raylib.raylib-Debug-c4addd1c72e7bdcd9568.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "raylib-cpp/raylib/src",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "raylib/raylib/raylib/external/glfw",
+					"childIndexes" : 
+					[
+						6
+					],
+					"jsonFile" : "directory-raylib.raylib.raylib.external.glfw-Debug-54ab169c780da4790c4e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 3,
+					"source" : "raylib-cpp/raylib/src/external/glfw"
+				},
+				{
+					"build" : "raylib/raylib/raylib/external/glfw/src",
+					"jsonFile" : "directory-raylib.raylib.raylib.external.glfw.src-Debug-989cecff88ca3362fe02.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 3,
+					"source" : "raylib-cpp/raylib/src/external/glfw/src",
+					"targetIndexes" : 
+					[
+						2,
+						6
+					]
+				},
+				{
+					"build" : "raylib/raygui/projects/CMake",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-raylib.raygui.projects.CMake-Debug-4b45a9697c8b7e49113a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "raylib-cpp/raygui/projects/CMake"
+				},
+				{
+					"build" : "raylib/BufferedRaylib",
+					"childIndexes" : 
+					[
+						9
+					],
+					"jsonFile" : "directory-raylib.BufferedRaylib-Debug-eab62dae69a36a923f87.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 5,
+					"source" : "raylib-cpp/BufferedRaylib",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "raylib/BufferedRaylib/FastSignals",
+					"childIndexes" : 
+					[
+						10
+					],
+					"jsonFile" : "directory-raylib.BufferedRaylib.FastSignals-Debug-d48896be80bea3f015cb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 6,
+					"source" : "raylib-cpp/BufferedRaylib/FastSignals"
+				},
+				{
+					"build" : "raylib/BufferedRaylib/FastSignals/libfastsignals",
+					"jsonFile" : "directory-raylib.BufferedRaylib.FastSignals.libfastsignals-Debug-8a0513be9a7f0ebafcf1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 6,
+					"source" : "raylib-cpp/BufferedRaylib/FastSignals/libfastsignals",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MidSeiersCities",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						4,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "raylib_cpp",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						3,
+						4
+					],
+					"name" : "raylib",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5,
+						6
+					],
+					"name" : "GLFW",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						2,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "raygui",
+					"parentIndex" : 1
+				},
+				{
+					"childIndexes" : 
+					[
+						6
+					],
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "BufferedRaylib",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9,
+						10
+					],
+					"name" : "FastSignals",
+					"parentIndex" : 5,
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "MidSeiersCities::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MidSeiersCities-Debug-a7b8791d6baba629fecb.json",
+					"name" : "MidSeiersCities",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "buffered-raylib::@9d449cec8df032a48cb2",
+					"jsonFile" : "target-buffered-raylib-Debug-6c9cfc34d0bad5185319.json",
+					"name" : "buffered-raylib",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "glfw::@81d7d553296b460197cb",
+					"jsonFile" : "target-glfw-Debug-9c6afa0e5ac940cc0bd5.json",
+					"name" : "glfw",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "libfastsignals::@e916930eab1e15107164",
+					"jsonFile" : "target-libfastsignals-Debug-6ebd8108c8435186b2b8.json",
+					"name" : "libfastsignals",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "raylib::@d67f788492dcb32afbac",
+					"jsonFile" : "target-raylib-Debug-57330c75115542366ed7.json",
+					"name" : "raylib",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uninstall::@7d429ebd5d102775094d",
+					"jsonFile" : "target-uninstall-Debug-8787d123b47b1e4e8005.json",
+					"name" : "uninstall",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "update_mappings::@81d7d553296b460197cb",
+					"jsonFile" : "target-update_mappings-Debug-4d25ae8f16ac31713b5a.json",
+					"name" : "update_mappings",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tyler/Coding/MidSeyersCities/build",
+		"source" : "/home/tyler/Coding/MidSeyersCities"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
